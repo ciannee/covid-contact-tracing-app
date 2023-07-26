@@ -5,6 +5,8 @@
 # import tkinter
 import tkinter
 # create window and frame
+window = tkinter.Tk()
+window.title("COVID-19 Health Declaration Form")
 # user info
 # first name
 # last name
