@@ -97,6 +97,11 @@ fever_label.grid(row=0, column=1)
 fever_combobox.grid(row=2, column=1)
 
 # cough
+cough_label = tkinter.Label(health_info_frame, text='Cough')
+cough_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+cough_label.grid(row=0, column=2)
+cough_combobox.grid(row=2, column=2)
+
 # runny nose
 # loss of smell
 # loss of taste
