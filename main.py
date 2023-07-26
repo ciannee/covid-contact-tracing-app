@@ -39,7 +39,12 @@ def enter_data():
 
             filepath = r'C:\Users\Mari\Desktop\OOP\Tkinter data entry\data.xlsx'
 
-            
+            if not os.path.exists(filepath):
+                workbook= openpyxl.Workbook()
+                sheet = workbook.active
+                heading = ["First Name", "Last Name", "Gender", "Age", "Occupation", "Residential Address", "Mobile Number", "Email Address", "Sore Throat", "Fever", "Cough", "Runny Nose", "Loss of Smell", "Loss of Taste", "Abdominal Pain", "Diarrhea"]
+                sheet.append(heading)
+                workbook.save(filepath)
 
 
 
