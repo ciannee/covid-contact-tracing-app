@@ -18,6 +18,9 @@ user_information_frame = tkinter.LabelFrame(frame, text='Personal Information')
 user_information_frame.grid(row=0, column=0, padx=20, pady=10)
 
 # first name
+first_name_label = tkinter.Label(user_information_frame, text='First Name')
+first_name_label.grid(row=0, column=0)
+
 # last name
 # gender
 # age
