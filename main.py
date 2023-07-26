@@ -13,7 +13,7 @@ window.title("COVID-19 Health Declaration Form")
 
 # create frame
 frame = tkinter.Frame(window)
-frame.pack
+frame.pack()
 
 # user info
 user_information_frame = tkinter.LabelFrame(frame, text='Personal Information')
@@ -44,6 +44,11 @@ age_entry = tkinter.Entry(user_information_frame)
 age_entry.grid(row=3, column=0)
 
 # occupation
+occupation_label = tkinter.Label(user_information_frame, text='Occupation')
+occupation_label.grid(row=2, column=1)
+occupation_entry = tkinter.Entry(user_information_frame)
+occupation_entry.grid(row=3, column=1)
+
 # contact details
 # address
 # number
