@@ -127,6 +127,11 @@ abdominal_pain_label.grid(row=5, column=0)
 abdominal_pain_combobox.grid(row=6, column=0)
 
 # diarrhea
+diarrhea_label = tkinter.Label(health_info_frame, text='Diarrhea')
+diarrhea_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+diarrhea_label.grid(row=5, column=1)
+diarrhea_combobox.grid(row=6, column=1)
+
 # accept terms
 
 window.mainloop()
