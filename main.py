@@ -53,7 +53,12 @@ occupation_entry.grid(row=3, column=1)
 contact_details_frame = tkinter.LabelFrame(frame, text = 'Contact Details')
 contact_details_frame.grid(row=1, column=0, sticky="news", padx=20, pady=10)
 
-# address
+# residential address
+residential_address_label = tkinter.Label(contact_details_frame, text='Residential Address')
+residential_address_label.grid(row=0, column=0)
+residential_address_entry = tkinter.Entry(contact_details_frame)
+residential_address_entry.grid(row=1, column=0)
+
 # number
 # email
 # health info
