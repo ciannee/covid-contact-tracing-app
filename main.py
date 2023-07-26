@@ -91,6 +91,11 @@ sore_throat_label.grid(row=0, column=0)
 sore_throat_combobox.grid(row=2, column=0)
 
 # fever
+fever_label = tkinter.Label(health_info_frame, text='Fever')
+fever_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+fever_label.grid(row=0, column=1)
+fever_combobox.grid(row=2, column=1)
+
 # cough
 # runny nose
 # loss of smell
