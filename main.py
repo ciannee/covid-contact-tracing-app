@@ -37,7 +37,11 @@ def enter_data():
 
             print("Submitted.")
 
+            filepath = r'C:\Users\Mari\Desktop\OOP\Tkinter data entry\data.xlsx'
+
             
+
+
 
 # create window
 window = tkinter.Tk()
