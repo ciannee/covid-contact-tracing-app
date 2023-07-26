@@ -109,6 +109,11 @@ runny_nose_label.grid(row=3, column=0)
 runny_nose_combobox.grid(row=4, column=0)
 
 # loss of smell
+loss_of_smell_label = tkinter.Label(health_info_frame, text='Loss of Smell')
+loss_of_smell_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+loss_of_smell_label.grid(row=3, column=0)
+loss_of_smell_combobox.grid(row=4, column=0)
+
 # loss of taste
 # abdominal pain
 # diarrhea
