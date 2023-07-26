@@ -58,6 +58,9 @@ def enter_data():
         
         else:
              tkinter.messagebox.showwarning(title='Error', message ='First name and last name are required.')
+    
+    else:
+        tkinter.messagebox.showwarning(title="Error", message="You have not certify the information.")
 
 
 
