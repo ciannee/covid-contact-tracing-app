@@ -25,6 +25,20 @@ def enter_data():
             number = mobile_number_entry.get()
             email = email_entry()
 
+            # health information
+            sore_throat = sore_throat_combobox.get()
+            fever = fever_combobox.get()
+            cough = cough_combobox.get()
+            runny_nose = runny_nose_combobox.get()
+            loss_of_smell = loss_of_smell_combobox.get()
+            loss_of_taste = loss_of_taste_combobox.get()
+            abdominal_pain = abdominal_pain_combobox.get()
+            diarrhea = diarrhea_combobox.get
+
+            print("Submitted.")
+
+            
+
 # create window
 window = tkinter.Tk()
 window.title("COVID-19 Health Declaration Form")
@@ -133,7 +147,7 @@ loss_of_smell_label.grid(row=3, column=1)
 loss_of_smell_combobox.grid(row=4, column=1)
 
 # loss of taste
-loss_of_taste_label = tkinter.Label(health_info_frame, text='Loss of Smell')
+loss_of_taste_label = tkinter.Label(health_info_frame, text='Loss of Taste')
 loss_of_taste_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
 loss_of_taste_label.grid(row=3, column=2)
 loss_of_taste_combobox.grid(row=4, column=2)
