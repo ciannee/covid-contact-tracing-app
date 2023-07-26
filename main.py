@@ -7,8 +7,13 @@ import tkinter
 # import ttk
 from tkinter import ttk
 
+# submit form command
 def enter_data():
     accepted = accept_var.get()
+
+    if accepted == "Not Certified":
+        first_name = first_name_entry.get()
+        last_name = last_name_entry.get()
 
 # create window
 window = tkinter.Tk()
