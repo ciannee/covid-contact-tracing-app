@@ -4,9 +4,15 @@
 
 # import tkinter
 import tkinter
-# create window and frame
+
+# create window
 window = tkinter.Tk()
 window.title("COVID-19 Health Declaration Form")
+
+# create frame
+frame = tkinter.Frame(window)
+frame.pack
+
 # user info
 # first name
 # last name
@@ -27,3 +33,5 @@ window.title("COVID-19 Health Declaration Form")
 # abdominal pain
 # diarrhea
 # accept terms
+
+window.mainloop
