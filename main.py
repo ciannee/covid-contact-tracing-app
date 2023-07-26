@@ -103,6 +103,11 @@ cough_label.grid(row=0, column=2)
 cough_combobox.grid(row=2, column=2)
 
 # runny nose
+runny_nose_label = tkinter.Label(health_info_frame, text='Runny Nose')
+runny_nose_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+runny_nose_label.grid(row=3, column=0)
+runny_nose_combobox.grid(row=4, column=0)
+
 # loss of smell
 # loss of taste
 # abdominal pain
