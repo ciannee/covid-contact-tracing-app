@@ -7,6 +7,9 @@ import tkinter
 # import ttk
 from tkinter import ttk
 
+def enter_data():
+    accepted = accept_var.get()
+
 # create window
 window = tkinter.Tk()
 window.title("COVID-19 Health Declaration Form")
@@ -144,7 +147,7 @@ declaration_check = tkinter.Checkbutton(declaration_frame, text='I hereby certif
 declaration_check.grid(row=0, column=0)
 
 # submit button
-button = tkinter.Button(frame, text='Submit Form')
+button = tkinter.Button(frame, text='Submit Form', command=enter_data)
 button.grid(row=8, column=0, sticky='news', padx=20, pady=10)
 
 
