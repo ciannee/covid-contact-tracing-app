@@ -49,6 +49,10 @@ occupation_label.grid(row=2, column=1)
 occupation_entry = tkinter.Entry(user_information_frame)
 occupation_entry.grid(row=3, column=1)
 
+# user information widget
+for widget in user_info_frame.winfo_children():
+    widget.grid_configure(padx=10, pady=5)
+
 # contact details
 contact_details_frame = tkinter.LabelFrame(frame, text = 'Contact Details')
 contact_details_frame.grid(row=1, column=0, sticky="news", padx=20, pady=10)
