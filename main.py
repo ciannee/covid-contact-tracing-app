@@ -136,13 +136,16 @@ diarrhea_combobox.grid(row=6, column=1)
 for widget in health_info_frame.winfo_children():
     widget.grid_configure(padx=10, pady=5)
 
-
 # accept terms
 declaration_frame = tkinter.LabelFrame(frame, text='Declaration')
 declaration_frame.grid(row=7, column=0, sticky='news', padx=20, pady=10)
 accept_var = tkinter.StringVar(value='Not Certified')
 declaration_check = tkinter.Checkbutton(declaration_frame, text='I hereby certify that the information given above are true, correct, and complete.', variable=accept_var, onvalue="Certified", offvalue="Not Certified")
 declaration_check.grid(row=0, column=0)
+
+# submit button
+button = tkinter.Button(frame, text='Submit Form')
+button.grid(row=3, column=0, sticky='news', padx=20, pady=10)
 
 
 
