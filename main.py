@@ -50,6 +50,9 @@ occupation_entry = tkinter.Entry(user_information_frame)
 occupation_entry.grid(row=3, column=1)
 
 # contact details
+contact_details_frame = tkinter.LabelFrame(frame, text = 'Contact Details')
+contact_details_frame.grid(row=1, column=0, sticky="news", padx=20, pady=10)
+
 # address
 # number
 # email
