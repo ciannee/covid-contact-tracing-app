@@ -38,6 +38,11 @@ gender_label.grid(row=0, column=2)
 gender_combobox.grid(row=1, column=2)
 
 # age
+age_label = tkinter.Label(user_information_frame, text="Age")
+age_label.grid(row=2, column=0)
+age_entry = tkinter.Entry(user_information_frame)
+age_entry.grid(row=3, column=0)
+
 # occupation
 # contact details
 # address
