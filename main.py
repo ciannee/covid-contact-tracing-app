@@ -50,6 +50,9 @@ def enter_data():
             sheet = workbook.active
             sheet.append([first_name, last_name, gender, age, occupation, address, number, email, sore_throat, fever, cough, runny_nose, loss_of_smell, loss_of_taste, abdominal_pain, diarrhea])
             workbook.save(filepath)
+        
+        else:
+             tkinter.messagebox.showwarning(title='Error', message ='First name and last name are required.')
 
 
 
