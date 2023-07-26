@@ -3,6 +3,7 @@
 # OOP Final Project: Covid Contact Tracing App with GUI
 
 # import tkinter
+import tkinter
 # create window and frame
 # user info
 # first name
