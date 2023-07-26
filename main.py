@@ -45,6 +45,11 @@ def enter_data():
                 heading = ["First Name", "Last Name", "Gender", "Age", "Occupation", "Residential Address", "Mobile Number", "Email Address", "Sore Throat", "Fever", "Cough", "Runny Nose", "Loss of Smell", "Loss of Taste", "Abdominal Pain", "Diarrhea"]
                 sheet.append(heading)
                 workbook.save(filepath)
+            
+            workbook = openpyxl.load_workbook(filepath)
+            sheet = workbook.active
+            sheet.append([first_name, last_name, gender, age, occupation, address, number, email, sore_throat, fever, cough, runny_nose, loss_of_smell, loss_of_taste, abdominal_pain, diarrhea])
+            workbook.save(filepath)
 
 
 
