@@ -14,6 +14,9 @@ frame = tkinter.Frame(window)
 frame.pack
 
 # user info
+user_information_frame = tkinter.LabelFrame(frame, text='Personal Information')
+user_information_frame.grid(row=0, column=0, padx=20, pady=10)
+
 # first name
 # last name
 # gender
