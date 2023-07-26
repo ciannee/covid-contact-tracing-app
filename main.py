@@ -16,7 +16,7 @@ import openpyxl
 def enter_data():
     accepted = accept_var.get()
     # user info
-    if accepted == "Not Certified":
+    if accepted == "Certified":
         first_name = first_name_entry.get()
         last_name = last_name_entry.get()
 
@@ -42,7 +42,7 @@ def enter_data():
 
             print("Submitted.")
 
-            filepath = r'C:\Users\Mari\Desktop\OOP\Tkinter data entry\data.xlsx'
+            filepath = r'C:\Users\Mari\Desktop\OOP\git\covid-contact-tracing-app\data.xlsx'
 
             if not os.path.exists(filepath):
                 workbook= openpyxl.Workbook()
