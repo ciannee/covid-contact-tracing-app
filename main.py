@@ -28,7 +28,7 @@ def enter_data():
             # contact details
             address = residential_address_entry.get()
             number = mobile_number_entry.get()
-            email = email_entry()
+            email = email_entry.get()
 
             # health information
             sore_throat = sore_throat_combobox.get()
@@ -38,7 +38,7 @@ def enter_data():
             loss_of_smell = loss_of_smell_combobox.get()
             loss_of_taste = loss_of_taste_combobox.get()
             abdominal_pain = abdominal_pain_combobox.get()
-            diarrhea = diarrhea_combobox.get
+            diarrhea = diarrhea_combobox.get()
 
             print("Submitted.")
 
