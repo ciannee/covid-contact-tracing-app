@@ -115,7 +115,17 @@ loss_of_smell_label.grid(row=3, column=1)
 loss_of_smell_combobox.grid(row=4, column=1)
 
 # loss of taste
+loss_of_taste_label = tkinter.Label(health_info_frame, text='Loss of Smell')
+loss_of_taste_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+loss_of_taste_label.grid(row=3, column=2)
+loss_of_taste_combobox.grid(row=4, column=2)
+
 # abdominal pain
+abdominal_pain_label = tkinter.Label(health_info_frame, text='Abdominal Pain')
+abdominal_pain_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
+abdominal_pain_label.grid(row=5, column=0)
+abdominal_pain_combobox.grid(row=6, column=0)
+
 # diarrhea
 # accept terms
 
