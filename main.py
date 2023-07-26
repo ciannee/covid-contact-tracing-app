@@ -75,6 +75,11 @@ email_label.grid(row=0, column=2)
 email_entry = tkinter.Entry(contact_details_frame)
 email_entry.grid(row=1, column=2)
 
+# contact details widget
+for widget in contact_details_frame.winfo_children():
+    widget.grid_configure(padx=10, pady=5)
+
+
 # health info
 # sore throat
 # fever
