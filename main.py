@@ -50,7 +50,7 @@ occupation_entry = tkinter.Entry(user_information_frame)
 occupation_entry.grid(row=3, column=1)
 
 # user information widget
-for widget in user_info_frame.winfo_children():
+for widget in user_information_frame.winfo_children():
     widget.grid_configure(padx=10, pady=5)
 
 # contact details
@@ -101,4 +101,4 @@ sore_throat_check2.grid(row=3, column=0)
 # diarrhea
 # accept terms
 
-window.mainloop
+window.mainloop()
