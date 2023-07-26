@@ -22,7 +22,7 @@ def enter_data():
 
         if first_name and last_name:
             gender = gender_combobox.get()
-            age = age_spinbox.get()
+            age = age_entry.get()
             occupation = occupation_entry.get()
 
             # contact details
