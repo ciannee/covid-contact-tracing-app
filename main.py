@@ -10,7 +10,7 @@ from tkinter import ttk
 # submit form command
 def enter_data():
     accepted = accept_var.get()
-
+    # user info
     if accepted == "Not Certified":
         first_name = first_name_entry.get()
         last_name = last_name_entry.get()
@@ -19,6 +19,11 @@ def enter_data():
             gender = gender_combobox.get()
             age = age_spinbox.get()
             occupation = occupation_entry.get()
+
+            # contact details
+            address = residential_address_entry.get()
+            number = mobile_number_entry.get()
+            email = email_entry()
 
 # create window
 window = tkinter.Tk()
