@@ -20,12 +20,14 @@ user_information_frame.grid(row=0, column=0, padx=20, pady=10)
 # first name
 first_name_label = tkinter.Label(user_information_frame, text='First Name')
 first_name_label.grid(row=0, column=0)
-first_name_entry = tkinter.Entry(user_info_frame)
+first_name_entry = tkinter.Entry(user_information_frame)
 first_name_entry.grid(row=1, column=0)
 
 # last name
-last_name_label = tkinter.Label(user_info_frame, text='Last Name')
+last_name_label = tkinter.Label(user_information_frame, text='Last Name')
 last_name_label.grid(row=0, column=1)
+last_name_entry = tkinter.Entry(user_information_frame)
+last_name_entry.grid(row=1, column=1)
 
 # gender
 # age
