@@ -145,7 +145,7 @@ declaration_check.grid(row=0, column=0)
 
 # submit button
 button = tkinter.Button(frame, text='Submit Form')
-button.grid(row=3, column=0, sticky='news', padx=20, pady=10)
+button.grid(row=8, column=0, sticky='news', padx=20, pady=10)
 
 
 
