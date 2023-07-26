@@ -138,5 +138,11 @@ for widget in health_info_frame.winfo_children():
 
 
 # accept terms
+declaration_frame = tkinter.LabelFrame(frame, text='Declaration')
+declaration_frame.grid(row=7, column=0, sticky='news', padx=20, pady=10)
+declaration_check = tkinter.Checkbutton(declaration_frame, text='I accept the terms and conditions', variable=accept_var, onvalue="Certified", offvalue="Not Certified")
+declaration_check.grid(row=0, column=0)
+
+
 
 window.mainloop()
