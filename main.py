@@ -30,6 +30,11 @@ last_name_entry = tkinter.Entry(user_information_frame)
 last_name_entry.grid(row=1, column=1)
 
 # gender
+gender_label =tkinter.Label(user_information_frame, text='Gender')
+gender_combobox = ttk.Combobox(user_information_frame, value=["Male", "Female", "Prefer not to say"])
+gender_label.grid(row=0, column=2)
+gender_combobox.grid(row=1, column=2)
+
 # age
 # occupation
 # contact details
