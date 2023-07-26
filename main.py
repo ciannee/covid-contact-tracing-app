@@ -86,11 +86,9 @@ health_info_frame.grid(row=2, column=0, sticky='news', padx=20, pady=10)
 
 # sore throat
 sore_throat_label = tkinter.Label(health_info_frame, text='Sore Throat')
-sore_throat_check1 = tkinter.Checkbutton(health_info_frame, text='yes')
-sore_throat_check2 = tkinter.Checkbutton(health_info_frame, text='no')
+sore_throat_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
 sore_throat_label.grid(row=0, column=0)
-sore_throat_check1.grid(row=2, column=0)
-sore_throat_check2.grid(row=3, column=0)
+sore_throat_combobox.grid(row=2, column=0)
 
 # fever
 # cough
