@@ -4,6 +4,8 @@
 
 # import tkinter
 import tkinter
+# import ttk
+from tkinter import ttk
 
 # create window
 window = tkinter.Tk()
