@@ -81,6 +81,10 @@ for widget in contact_details_frame.winfo_children():
 
 
 # health info
+health_info_frame = tkinter.LabelFrame(frame, text='Health Information Details')
+health_info_frame.grid(row=2, column=0, sticky='news', padx=20, pady=10)
+
+
 # sore throat
 # fever
 # cough
