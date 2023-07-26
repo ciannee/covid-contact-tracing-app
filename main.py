@@ -17,7 +17,7 @@ frame.pack()
 
 # user info
 user_information_frame = tkinter.LabelFrame(frame, text='Personal Information')
-user_information_frame.grid(row=0, column=0, padx=20, pady=10)
+user_information_frame.grid(row=0, column=0, sticky='news', padx=20, pady=10)
 
 # first name
 first_name_label = tkinter.Label(user_information_frame, text='First Name')
@@ -131,6 +131,11 @@ diarrhea_label = tkinter.Label(health_info_frame, text='Diarrhea')
 diarrhea_combobox = ttk.Combobox(health_info_frame, value=['Yes', 'No'])
 diarrhea_label.grid(row=5, column=1)
 diarrhea_combobox.grid(row=6, column=1)
+
+# health info frame widget
+for widget in health_info_frame.winfo_children():
+    widget.grid_configure(padx=10, pady=5)
+
 
 # accept terms
 
