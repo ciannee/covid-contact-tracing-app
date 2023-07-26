@@ -15,6 +15,11 @@ def enter_data():
         first_name = first_name_entry.get()
         last_name = last_name_entry.get()
 
+        if first_name and last_name:
+            gender = gender_combobox.get()
+            age = age_spinbox.get()
+            occupation = occupation_entry.get()
+
 # create window
 window = tkinter.Tk()
 window.title("COVID-19 Health Declaration Form")
