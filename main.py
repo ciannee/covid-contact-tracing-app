@@ -69,8 +69,12 @@ mobile_number_label.grid(row=0, column=1)
 mobile_number_entry = tkinter.Entry(contact_details_frame)
 mobile_number_entry.grid(row=1, column=1)
 
-
 # email
+email_label = tkinter.Label(contact_details_frame, text='Email Address')
+email_label.grid(row=0, column=2)
+email_entry = tkinter.Entry(contact_details_frame)
+email_entry.grid(row=1, column=2)
+
 # health info
 # sore throat
 # fever
