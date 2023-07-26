@@ -59,7 +59,13 @@ residential_address_label.grid(row=0, column=0)
 residential_address_entry = tkinter.Entry(contact_details_frame)
 residential_address_entry.grid(row=1, column=0)
 
-# number
+# mobile number
+mobile_number_label = tkinter.Label(contact_details_frame, text='Mobile Number')
+mobile_number_label.grid(row=0, column=1)
+mobile_number_entry = tkinter.Entry(contact_details_frame)
+mobile_number_entry.grid(row=1, column=1)
+
+
 # email
 # health info
 # sore throat
